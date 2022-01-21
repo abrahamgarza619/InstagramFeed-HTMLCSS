@@ -1,0 +1,50 @@
+* {
+	border: 1px dashed red;
+    min-height: 10px;
+}
+body {
+    background: gainsboro;
+    margin: 0;
+}
+div {
+    box-sizing: border-box;  
+}
+header {
+    background: white;
+    padding: 10px;
+}
+header h1 {
+    margin: 0;
+}
+.container {
+    width: 600px;
+    margin: auto;
+}
+.post {
+    background: white;
+    margin-top: 10px;
+}
+.post img {
+    width: 100%;
+    object-fit: cover;
+}
+div.post h2, div.post p{
+    padding: 10px;
+    margin: 0;
+}
+div.post .post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: gray;
+}
+.post-img {
+    width: 600px;
+    height: 400px;
+    display: flex;
+}
